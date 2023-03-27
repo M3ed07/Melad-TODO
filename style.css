@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+
+*{font-family: 'Exo', sans-serif;}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    box-shadow: 1px 5px 100px 10px #6348b9;
+    width: fit-content;
+    border-radius: 12px;
+    padding-bottom: 1em;
+}
+.container img {
+    border-radius: 12px;
+}
+
+button{font-size: 13px; color: rgb(73, 73, 73);}
+input::placeholder{
+    color: rgb(73, 73, 73);
+}
+
+ul {margin: 8px 0 0 0 ;padding: 0;}
+
+ul li{list-style-type: none; font-size: 13px;} 
+
+ul li.checked{
+    background: #6348b9;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {margin-left: 4em;}
